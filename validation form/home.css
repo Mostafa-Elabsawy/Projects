@@ -94,11 +94,10 @@ body {
 
 .user {
     border: var(--white) 4px solid;
-
-    outline: 0px green solid;
     width: 95%;
     height: 35%;
     margin: 10px;
+    outline: green solid 0px;
     background-color: rgba(240, 248, 255, 0);
     border-radius: 20px 20px;
     box-sizing: border-box;
@@ -106,12 +105,17 @@ body {
     font-size: 30px;
     color: #e3ebf7;
     position: relative;
+    overflow: hidden;
 
 
 }
 
-.user:focus {
+.user:focus{
     border: #3d86ec 4px solid;
+        background-color: rgba(240, 248, 255, 0);
+}
+.user:default {
+        background-color: rgba(240, 248, 255, 0);
 }
 
 .user::placeholder {
