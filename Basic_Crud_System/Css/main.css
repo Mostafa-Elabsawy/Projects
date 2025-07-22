@@ -1,0 +1,15 @@
+label {
+  color: black;
+  font-weight: 500;
+}
+body {
+  height: 200vh;
+  background-color: #b9b7b7;
+}
+#button_add {
+  display: block;
+}
+#button_update {
+  display: none;
+}
+
