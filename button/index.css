@@ -24,10 +24,10 @@ button {
     all: unset;
     height: 50%;
     aspect-ratio: 1/1;
-    border-radius: 100%;
+    /* border-radius: 100%; */
     border: blue solid 2px;
-    background-color: #5CD2B8;
-    border: 10px solid #3B8272;
+    /* background-color: #5CD2B8; */
+    /* border: 10px solid #3B8272; */
     position: relative;
     display: flex;
     justify-content: center;
@@ -41,13 +41,13 @@ button::before {
     bottom: 0;
     right: 0;
     left: 0;
-    border-radius: 100%;
+    /* border-radius: 100%; */
     z-index: -2;
-    background-color: #2e564e;
-    margin: -20px;
+    background-color: #dce4e3;
+    margin: 5px 5px;
 }
 
-button::after {
+/* button::after {
     content: "";
     position: absolute;
     top: 0;
@@ -58,7 +58,7 @@ button::after {
     z-index: -1;
     background-image:var(--color) ;
     margin: -35px;
-}
+} */
 button img
 {
     width: 150px;

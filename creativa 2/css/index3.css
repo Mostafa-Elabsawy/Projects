@@ -1,0 +1,115 @@
+:root {
+  --color1: #d72323bd;
+  --color2: #47ffd7;
+  --font_color: white;
+  --element_color: #47ffd7;
+  --background_color: black;
+}
+.Contact {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.Contact .left {
+  width: 49%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  /* border: green solid 2px; */
+}
+.Contact .right {
+    /* border: #47ffd7 solid 2px; */
+    width: 49%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+}
+.Contact .left form
+{
+    display: flex;
+    flex-direction: column;
+    border: var(--element_color) 3px solid;
+    width: 70%;
+    height: 80%;
+    align-items: center;
+    justify-content: end;
+    background-color: rgb(9, 9, 9);
+}
+.Contact .left form div
+{
+    margin-top: 25px;
+    width: 95%;
+    border-radius: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+.Contact .left form div input
+{
+    padding: 5px;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(30, 30, 30);
+    border: var(--element_color) solid 1px;
+    border-radius: 5px 5px 5px 5px;
+    color :var(--element_color);
+}
+.Contact .left form div input:focus
+{
+    outline: white 1px solid;
+}
+.Contact .left form div label
+{
+    color:var(--element_color)
+}
+.Contact .left form div textarea
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(30, 30, 30);
+    border: var(--element_color) solid 1px;
+}
+.Contact .left form div textarea:focus
+{
+    outline: white 1px solid;
+}
+
+.Contact .left form .notes
+{
+    height: 40%;
+    margin-bottom: 25px;
+    color: #47ffd7;
+}
+.Contact .right h1
+{
+    font-size: 50px;
+    color: var(--element_color);
+    font-weight: 700;
+    border-bottom: #47ffd7 3px solid;
+}
+.Contact .right div
+{
+    /* border: red solid 2px; */
+    display: flex;
+    gap: 10px;
+    color: #47ffd7;
+    justify-content: center;
+    align-items: center;
+}
+.Contact .right div h3
+{
+    font-size: 35px;
+    font-weight: 500;
+}
+
+
+
+
+
+

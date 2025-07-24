@@ -1,0 +1,130 @@
+:root {
+  --color1: #167a64;
+  --color2: #21ba99;
+  --font_color: white;
+  --element_color: #21ba99;
+  --background_color: black;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: black;
+}
+
+/*========= Navbar section =========*/
+nav {
+  margin: auto;
+  height: 75px;
+  width: 100%;
+  padding: 5px 30px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  border-radius: 10px 10px 10px 10px;
+  z-index: 100;
+  background-color: rgb(25, 25, 25);
+  text-align: center;
+}
+nav {
+  .logo {
+    width: 20%;
+    color: var(--element_color);
+    font-weight: 900;
+    font-size: 1.5rem;
+  }
+
+  .Navbar_Elements {
+    justify-self: start;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    /* border: white 2px solid; */
+  }
+  .Navbar_Elements {
+    a {
+      all: unset;
+      height: 100%;
+      aspect-ratio: 3/2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-weight: 500;
+      font-size: 17px;
+    }
+    a:hover {
+      transition: all 500ms ease 0s;
+      background-color: #ffffff2f;
+      border-radius: 5%;
+      color: var(--color2);
+      font-weight: 500;
+      font-size: 17px;
+    }
+  }
+  search {
+    position: relative;
+    margin-left: auto;
+    /* border: green solid 2px; */
+    input {
+      border: none;
+      width: 300px;
+      border-radius: 5px 5px 5px 5px;
+      height: 40px;
+      padding: 5px 10px;
+      background-color: #eee;
+      
+    }
+    input:focus
+    {
+      border:#21ba99 2px solid;
+      outline: none;
+    }
+    svg {
+      color: #21ba99;
+      font-size: 25px;
+      position: absolute;
+      right:3%;
+      top: 50%;
+      transform: translate(0,-50%);
+    }
+  }
+}
+/*========= Home section =========*/
+.Home {
+  width: 100%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  color: var(--color2);
+  /* border: pink solid 5px; */
+  overflow: hidden;
+}
+.Home img {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  filter: brightness(40%);
+}
+.Home .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  /* border:green solid 5px; */
+  width: 100%;
+  height: 50%;
+  color: white;
+  flex-flow: column nowrap;
+  font-weight: 500;
+  font-size: 30px;
+}
