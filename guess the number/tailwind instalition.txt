@@ -1,0 +1,3 @@
+npm init
+npm install tailwindcss @tailwindcss/cli
+npx @tailwindcss/cli -i css/input.css -o css/tailwind.css --watch

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Css/all.min.css">
+    <link rel="stylesheet" href="../Css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Css/index.css" >
+    <link rel="stylesheet" href="../Css/tailwind.css">
+</head>
+<body class="container">
+    <div action="" class="m-auto col-5">
+        <div class="input-group flex-column w-100 gap-1 mb-2">
+            <label for="" class="form-label m-auto text-primary fs-3 fw-semibold">Enter your guess</label>
+            <input id="guess" type="text" class="form-control w-100 ">
+            <div class="valid-feedback d-none" id="valid">
+                Looks good!
+            </div>
+        </div>
+        <button class="btn btn-outline-primary w-50 m-auto d-block" id="guessBtn">Guess</button>
+    </div>
+    <table class="table table-light w-auto m-auto mt-5 text-center">
+        <thead>
+            <tr>
+                <th class="border  border-primary border-2 w-25 fs-5"> Your guess</th>
+                <th class="border  border-primary border-2 w-25 fs-5"> result</th>
+            </tr>
+        </thead>
+        <tbody id="result">
+        </tbody>
+    </table>
+  
+
+    <script src="../Java_Script/all.min.js"></script>
+    <script src="../Java_Script/bootstrap.bundle.min.js"></script>
+    <script src="../Java_Script/index.js"> </script>
+</body>
+</html>

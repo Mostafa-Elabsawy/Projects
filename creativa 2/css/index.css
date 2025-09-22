@@ -72,12 +72,13 @@ nav {
     margin-left: auto;
     /* border: green solid 2px; */
     input {
-      border: none;
+      border: var(--color2) 1px solid;
       width: 300px;
-      border-radius: 5px 5px 5px 5px;
+      border-radius: 10px;
       height: 40px;
       padding: 5px 10px;
-      background-color: #eee;
+      background-color:rgb(30, 30, 30);
+      color: white;
       
     }
     input:focus
